@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header></header>
+    <div class="hero">
+    <h2>Income Tax Calculator USA</h2>
+    <p>Find out how much your salary is after tax</p>
+    </div>
     <div class="salary-calc">
-        <div class="logo">
-            <img src="imgs/icon__main-header.png">
-        </div>
+      
         <form accept-charset="UTF-8" action="#" method="POST">
+     
               <div class="enter-income">
                 <label for="income" class="gross-income">Enter your gross income</label>
                 <div class="input-container">
                     <img src="imgs/input__salary-icon.png" class="money">
-                    <input type="text" class="gross.income" id="gorss.income">
+                    <input type="text" class="gross-income" id="gross-income">
                 </div>
                 </div>
+                <div class="drop-down">
                 <div class="time-select">
-                    <label for="per-time" class="choose-time">Per</label>
+                    <label for="per-time" class="choose-time">Per</label><br>
                     <select name="select-per" id="select-per">
-                        <option value="year" class="select-time">Yearly</option>
+                        <option value="year" class="select-time">Annual</option>
                     </select>
                 </div>
                 <div class="selector">
@@ -33,10 +37,16 @@
                     <option value="or" class="select-state">Oregon</option>
                 </select>
                 </div>
+                </div>
                 <button type="submit">Calculate</button>
+                </form>
+                <div class="weird-logo">
+                    <img src="imgs/icon__main-header.png" class="logo">
+                </div>
             </div>
-        </form>
-        <div id="result" style="display: none;"></div>
+            <div class="summary-container">
+        <div id="result" class="summary-box" "display: none;"></div>
+    </div>
     </div>
     </div>
     <script src="js/custom.js"></script>

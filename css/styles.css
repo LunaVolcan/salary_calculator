@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.salary-calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5rem ;
+    align-items: center;
+    border-bottom: #F6F6F9 solid 1px;
+    margin-top: -5rem;
+}
+
+.logo {
+    width: 15rem;
+    display: flex;
+}
+
+.hero {
+   margin: 5rem 0 0 5rem;
+   color: #30183F;
+}
+
+.hero h2 {
+    font-size: xx-large;
+}
+
+.hero p {
+    font-size: large;
+}
+
+form {
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+label {
+    font-size: small;
+    padding-left: 1.5rem;
+}
+
+.input-container {
+    position: relative;
+    width: 15rem;
+}
+
+.input-container img {
+    position: absolute;
+    left: .9rem;
+    transform: translateY(40%);
+    width: 1.8rem;
+}
+
+input {
+    padding: 1rem;
+    padding-left: 2.8rem;
+    border-radius: 50px;
+    border: solid 1px #F6F6F9;
+    background-color: #F6F6F9;
+}
+
+input:hover {
+    background-color: #F0F0F5;
+}
+
+.drop-down {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0;
+}
+
+#salary-select {
+    width: 12rem;
+    height: 3.1rem;
+    border-radius: 50px;
+     border: solid 1px #F6F6F9;
+    background-color: #F6F6F9;
+    letter-spacing: .5px;
+    text-align:left;
+    padding-left: 1rem;
+}
+
+#salary-select:hover {
+    background-color: #F0F0F5;
+}
+
+#select-per {
+    width: 8rem;
+    height: 3.1rem;
+    border-radius: 50px;
+     border: solid 1px #F6F6F9;
+    background-color: #F6F6F9;
+    letter-spacing: .5px;
+    text-align:left;
+    padding-left: 1rem;
+}
+
+#select-per:hover {
+    background-color: #F0F0F5;
+}
+
+.weird-logo {
+    margin-top: 0;
+    padding-left: 11rem;
+}
+
+button {
+    margin-top: 1rem;
+     width: 12rem;
+    height: 3rem; 
+    border-radius: 50px;
+    border: solid 1px #F6F6F9;
+    background-color: #E34B31;
+    color: #FFFFFF;
+    font-size: medium;
+    letter-spacing: .5px;
+}
+
+button:hover {
+    background-color: #D6422A;
+}
+
+.summary-box {
+    background-color: #FFFFFF; 
+    border: 1px solid #E4E4E7; 
+    border-radius: 12px; 
+    padding: 1.5rem; 
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    display: none;
+}
+
+.summary-box h3 {
+    font-size: 1.25rem; 
+    margin-bottom: 1rem; 
+    color: #30183F; 
+}
+
+.summary-box h4 {
+    font-size: 1rem; 
+    margin-top: 2rem; 
+    margin-bottom: 1rem; 
+    color: #30183F;
+}
+
+.summary-box p {
+    font-size: 1rem; 
+    color: #727272;
+    line-height: 1.5; 
+}
+
+.summary-box strong {
+    font-weight: bold; 
+    color: #676767;
+}
